@@ -1,5 +1,8 @@
 module.exports = {
   presets: [
-    '@vue/cli-plugin-babel/preset'
+    '@vue/cli-plugin-babel/preset',
+    // "transform-vue-jsx",
+    // "transform-runtime",
+    // ["import", { "libraryName": "vant", "style": true }]
   ]
 }
